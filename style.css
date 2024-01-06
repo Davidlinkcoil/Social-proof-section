@@ -29,7 +29,7 @@ body{
 }
 .grid__upper{
   display: flex;
-  border: solid 1px;
+  /* border: solid 1px; */
   align-items: center;
   height: 50%;
   color: hsl(300, 43%, 22%);
@@ -82,17 +82,16 @@ body{
 .rated:nth-of-type(3){
   align-self: flex-end;
 }
-
-  
-.one__star{
+ .one__star{
   height: 12px;
   width: 12px;
 }
 .text{
   width: 160px;
 }
-
+/* --------------------------------------------------- */
 /* The bottom Grid Style */
+/* --------------------------------------------------- */
 .grid__bottom{
   border: solid 1px;
   height: 50%;
